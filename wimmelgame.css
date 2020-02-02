@@ -1,0 +1,71 @@
+*{
+	background-color: #213939;
+	font-family: "comic sans MS";
+	font-size: 20px;
+	color: #fbeb16;
+}
+
+button{
+	background-color: #231e1fc4;
+	border-color: #fbeb16;
+	border-radius: 7px;
+}
+area {
+		cursor: initial;
+}
+
+#back{
+	text-align: right;
+}
+
+#task{
+
+}
+
+#start{
+	height:40px;
+
+}
+
+#gurl{
+	position:absolute;
+	width:100%;
+	display:none;
+}
+
+.death{
+	position:fixed;
+	width:100%;
+	height:100%;
+	z-index: 100;
+	display: none;
+}
+
+.head{
+	display: flex;
+	flex-direction: column;
+	
+}
+.wimmelbild{
+	position:relative;
+	display:flex;
+	justify-content: center;
+}
+.navigation{
+	display: flex;
+	justify-content: space-between;
+}
+.all{
+	display: flex;
+	flex-direction: column;
+}
+#godbless{ 
+	display: float;
+	float: right;
+	border: 1px dashed #231e1fc4;
+	background-color: #213939;
+	color: #231e1fc4;
+ }
+.godmode area{
+	border: 3px solid #fbeb16;
+}

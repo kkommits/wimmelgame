@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>gewimmel</title>
+	<link rel="stylesheet" type="text/css" href="wimmelgame.css">
+</head>
+<body>
+	<img class="death" src="imgs/systemfailure.png">
+<div class="all">
+	<div class="head">
+		<a id="back" href=""><button >back</button></a>
+		<img src="imgs/wimmelgame_font.png">
+		<div class="navigation">
+			<button id="start">start</button>
+
+			<div> 
+				<p id="task"></p>
+			</div>
+			<div id="pointz">
+				<p><span id="point">0</span>/9</p> 
+			</div>
+		</div>
+	</div>
+
+	<div class="wimmelbild">
+		<img id="wimmelbild" src="imgs/wimmelbild.game.jpg"  alt="wimmelbild" usemap="#wimmelmap">
+		<img id="gurl" src="imgs/lucy.png" alt="verycutecat" width="1024">
+
+	<map id="map" name="wimmelmap">
+ 		 <area alt="tigershark" title="tigershark" href="" coords="86,417,136,448" shape="rect">
+ 		 <area alt="humpback" title="humpback" href="" coords="526,111,593,170" shape="rect">
+ 		 <area alt="hobbiton" title="hobbiton" href="" coords="1104,721,1133,746" shape="rect">
+ 		 <area alt="lucy" title="lucy" href="" coords="529,314,551,332" shape="rect">
+ 		 <area alt="trex" title="trex" href="" coords="636,271,672,302" shape="rect">
+ 		 <area alt="krill" title="krill" href="" coords="310,677,342,704" shape="rect">
+ 		 <area alt="pufferfish" title="pufferfish" href="" coords="400,307,427,329" shape="rect">
+ 		 <area alt="platypus" title="platypus" href="" coords="979,707,1015,729" shape="rect">
+ 		 <area alt="sasquatch" title="sasquatch" href="" coords="153,260,170,289" shape="rect">
+ 		 <area alt="anteater" title="anteater" href="" coords="285,536,329,558" shape="rect">
+ 		 <area alt="pikachu" title="pikachu" href="" coords="1072,306,1092,325" shape="rect">
+ 		 <area alt="the hatch" title="the hatch" href="" coords="34,412,47,426" shape="rect">
+	</map>
+
+
+	</div>
+	<div class="footer">
+		<p>tip: the things you're looking for are largely where they're supposed to be or originate from.</p>
+		<button id="godbless">godmode</button>
+	</div>
+</div>	
+
+	<script type="text/javascript" src="wimmelgame.js"></script>
+</body>
+</html>
